@@ -1,0 +1,16 @@
+{
+    "name": "netflix-subtitles-backend",
+    "version": "1.0.0",
+    "description": "Backend WebSocket para transcripción en tiempo real con Whisper",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "ws": "^8.13.0",
+      "axios": "^1.6.7"
+    }
+  }
+  
